@@ -1,4 +1,5 @@
 version: "3.8"
+ARG VERBOSE=true
 services:
   web:
     image: processmaker/pm4-core:${PM_VERSION}
